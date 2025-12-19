@@ -1,4 +1,5 @@
-﻿namespace S_Icon_Master
+// SPDX-License-Identifier: GPL-2.0-only
+namespace S_Icon_Master
 {
     partial class ConsoleForm
     {
@@ -63,4 +64,5 @@
 
         public ListBox DirList;
     }
+
 }
