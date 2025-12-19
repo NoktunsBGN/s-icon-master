@@ -1,4 +1,5 @@
-﻿namespace S_Icon_Master
+// SPDX-License-Identifier: GPL-2.0-only
+namespace S_Icon_Master
 {
     partial class MainForm
     {
@@ -173,4 +174,5 @@
         private PictureBox ExitButton;
         private PictureBox ConsoleButton;
     }
+
 }
