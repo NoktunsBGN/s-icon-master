@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-2.0-only
 namespace S_Icon_Master
 {
     public partial class SelectDirForm : Form
@@ -66,4 +67,5 @@ namespace S_Icon_Master
             }
         }
     }
+
 }
