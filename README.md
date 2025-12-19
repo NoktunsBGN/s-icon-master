@@ -70,7 +70,7 @@ If you're still worried, please check the source code yourself before downloadin
 <p>-Yes! You may email me any suggestions if you'd like. I like to stay on top of my inbox but I can't make any guarantee some emails won't slip through the cracks.
 <br>
 <br>
-<br>
+
 ## License
 
 This project is licensed under the GNU General Public License v2.0 only
