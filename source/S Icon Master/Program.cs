@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-2.0-only
 namespace S_Icon_Master
 {
     internal static class Program
@@ -18,4 +19,5 @@ namespace S_Icon_Master
             Application.Run(new SelectDirForm(console));
         }
     }
+
 }
