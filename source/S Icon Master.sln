@@ -1,6 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
+# SPDX-License-Identifier: GPL-2.0-only
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S Icon Master", "S Icon Master\S Icon Master.csproj", "{B8994E93-1488-4C42-8B14-A4A903BA9334}"
@@ -23,3 +24,4 @@ Global
 		SolutionGuid = {F806C7C6-AF31-45C8-A707-F16534E33D27}
 	EndGlobalSection
 EndGlobal
+
