@@ -1,4 +1,5 @@
-﻿using System;
+// SPDX-License-Identifier: GPL-2.0-only
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -104,3 +105,4 @@ namespace S_Icon_Master
         }
     }
 }
+
