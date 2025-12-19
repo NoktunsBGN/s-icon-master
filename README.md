@@ -71,3 +71,7 @@ If you're still worried, please check the source code yourself before downloadin
 <br>
 <br>
 <br>
+## License
+
+This project is licensed under the GNU General Public License v2.0 only
+(GPL-2.0-only). See the LICENSE file for details.
