@@ -1,5 +1,6 @@
 # S Icon Master - A tool for applying folder icons in Windows across multiple directories
 ![Alt Text](https://i.imgur.com/C5Yedba.png)
+<p>
 <b>Version 2.0 now released! Re-written and more sleek and modern than ever!</b>
 <br>
 In Windows, it is a tedious process to apply icons to folders, manually having to go into each folder's Properties and change the icon, then select an icon file. With this tool, you can simply dump each .ico file into its respective folder, then run the tool and have it do all the work!
