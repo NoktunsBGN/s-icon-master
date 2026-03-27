@@ -1,5 +1,6 @@
 # S Icon Master - A tool for applying folder icons in Windows across multiple directories
 ![Alt Text](https://i.imgur.com/C5Yedba.png)
+<b>Version 2.0 now released! Re-written and more sleek and modern than ever!</b>
 <br>
 In Windows, it is a tedious process to apply icons to folders, manually having to go into each folder's Properties and change the icon, then select an icon file. With this tool, you can simply dump each .ico file into its respective folder, then run the tool and have it do all the work!
 <br>
@@ -47,12 +48,8 @@ Step 3: You will see a list of every folder containing an icon. Simply click App
 <br>
 <br>
 <br>
-<b>Why does Windows Defender detect the program as a Wacatac threat?</b>
-<p>-Windows Defender detects the DLL shipped with the program as a Wacatac threat because it modifies and deletes desktop.ini files in the folders the icons are being applied to. The desktop.ini files generated and overwritten by the program are considered system files for this method to work. This is a false positive caused by Machine Learning/AI algorithms in the antivirus, and regular antivirus won't detect it. Running the file through VirusTotal, only 3 vendors identify it as suspicious and they're all ML/AI-based:
-
-![Alt Text](https://i.imgur.com/rOikujI.png)
-
-If you're still worried, please check the source code yourself before downloading and compile your own Binary from it in Visual Studio. I have removed the DLL from the source so you can download it without any virus warnings, though I can't do the same for the Release because the program requires the DLL to run.
+<b>Can I use the old version of S Icon Master that's written in C#?</b>
+<p>-You can, by getting v1.2 from the releases tab, instead of the current latest version. Keep in mind modern Windows Defender false-detects it as malware since it changes system files though. It is also unsupported so if you encounter any issues, you're on your own. v2.0 fully replaced it.
 <br>
 <br>
 <br>
