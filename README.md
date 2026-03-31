@@ -11,7 +11,7 @@ Special thanks to:
 <p>-My friend Aureal, for giving me the inspiration for this project. (He really needed this one!)
 
 ## Prerequisites
--This app was built using .NET 6.0, and so requires .NET Runtime 6.0 or higher to run. ([.NET Download Link](https://dotnet.microsoft.com/en-us/download))
+-This app was built using Flutter/Dart, which are based on C++, and so you may need the Visual C++ Redistributable to run it. ([VC++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist))
 <br>
 ## Usage
 The tool uses a GUI-based app to run. Simply download the archive from our Releases tab, extract it, and run "S Icon Master.exe".
