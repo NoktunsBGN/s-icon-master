@@ -15,11 +15,11 @@ Future<void> main(List<String> args) async {
     return;
   }
 
-  runApp(const MyApp());
+  runApp(const SIconMaster());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class SIconMaster extends StatelessWidget {
+  const SIconMaster({super.key});
 
   static const Color backgroundColor = Color(0xFF2B2D31);
   static const Color surfaceColor = Color(0xFF313338);
@@ -452,21 +452,21 @@ class _HomePageState extends State<HomePage> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          backgroundColor: MyApp.surfaceColor,
+          backgroundColor: SIconMaster.surfaceColor,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(16),
           ),
           title: const Text(
             'Error',
             style: TextStyle(
-              color: MyApp.primaryTextColor,
+              color: SIconMaster.primaryTextColor,
               fontWeight: FontWeight.w600,
             ),
           ),
           content: Text(
             message,
             style: const TextStyle(
-              color: MyApp.primaryTextColor,
+              color: SIconMaster.primaryTextColor,
               fontSize: 14,
             ),
           ),
@@ -476,7 +476,7 @@ class _HomePageState extends State<HomePage> {
               child: const Text(
                 'OK',
                 style: TextStyle(
-                  color: MyApp.accentColor,
+                  color: SIconMaster.accentColor,
                   fontWeight: FontWeight.w600,
                 ),
               ),
@@ -496,21 +496,21 @@ class _HomePageState extends State<HomePage> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          backgroundColor: MyApp.surfaceColor,
+          backgroundColor: SIconMaster.surfaceColor,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(16),
           ),
           title: const Text(
             'Done',
             style: TextStyle(
-              color: MyApp.primaryTextColor,
+              color: SIconMaster.primaryTextColor,
               fontWeight: FontWeight.w600,
             ),
           ),
           content: Text(
             message,
             style: const TextStyle(
-              color: MyApp.primaryTextColor,
+              color: SIconMaster.primaryTextColor,
               fontSize: 14,
             ),
           ),
@@ -520,7 +520,7 @@ class _HomePageState extends State<HomePage> {
               child: const Text(
                 'OK',
                 style: TextStyle(
-                  color: MyApp.accentColor,
+                  color: SIconMaster.accentColor,
                   fontWeight: FontWeight.w600,
                 ),
               ),
@@ -537,7 +537,7 @@ class _HomePageState extends State<HomePage> {
 
   ButtonStyle _primaryButtonStyle() {
     return ElevatedButton.styleFrom(
-      backgroundColor: MyApp.accentColor,
+      backgroundColor: SIconMaster.accentColor,
       foregroundColor: Colors.white,
       elevation: 0,
       padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
@@ -549,8 +549,8 @@ class _HomePageState extends State<HomePage> {
 
   ButtonStyle _secondaryButtonStyle() {
     return ElevatedButton.styleFrom(
-      backgroundColor: MyApp.surfaceAltColor,
-      foregroundColor: MyApp.accentColor,
+      backgroundColor: SIconMaster.surfaceAltColor,
+      foregroundColor: SIconMaster.accentColor,
       elevation: 0,
       padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
       shape: RoundedRectangleBorder(
@@ -575,9 +575,9 @@ class _HomePageState extends State<HomePage> {
   InputDecoration _inputDecoration() {
     return InputDecoration(
       filled: true,
-      fillColor: MyApp.surfaceColor,
+      fillColor: SIconMaster.surfaceColor,
       hintText: 'Enter or select a directory...',
-      hintStyle: const TextStyle(color: MyApp.secondaryTextColor),
+      hintStyle: const TextStyle(color: SIconMaster.secondaryTextColor),
       contentPadding: const EdgeInsets.symmetric(
         horizontal: 16,
         vertical: 16,
@@ -631,7 +631,7 @@ class _HomePageState extends State<HomePage> {
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 20,
-              color: MyApp.primaryTextColor,
+              color: SIconMaster.primaryTextColor,
               fontWeight: FontWeight.w500,
             ),
           ),
@@ -639,7 +639,7 @@ class _HomePageState extends State<HomePage> {
           TextField(
             controller: _pathController,
             style: const TextStyle(
-              color: MyApp.primaryTextColor,
+              color: SIconMaster.primaryTextColor,
               fontSize: 15,
             ),
             decoration: _inputDecoration(),
@@ -700,7 +700,7 @@ class _HomePageState extends State<HomePage> {
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 20,
-              color: MyApp.primaryTextColor,
+              color: SIconMaster.primaryTextColor,
               fontWeight: FontWeight.w500,
             ),
           ),
@@ -708,7 +708,7 @@ class _HomePageState extends State<HomePage> {
           Expanded(
             child: Container(
               decoration: BoxDecoration(
-                color: MyApp.surfaceColor,
+                color: SIconMaster.surfaceColor,
                 borderRadius: BorderRadius.circular(16),
                 border: Border.all(
                   color: const Color(0xFF3F4147),
@@ -727,7 +727,7 @@ class _HomePageState extends State<HomePage> {
 
                     return Container(
                       decoration: BoxDecoration(
-                        color: MyApp.surfaceAltColor,
+                        color: SIconMaster.surfaceAltColor,
                         borderRadius: BorderRadius.circular(12),
                       ),
                       padding: const EdgeInsets.symmetric(
@@ -737,7 +737,7 @@ class _HomePageState extends State<HomePage> {
                       child: Text(
                         directoryPath,
                         style: const TextStyle(
-                          color: MyApp.primaryTextColor,
+                          color: SIconMaster.primaryTextColor,
                           fontSize: 14,
                           height: 1.35,
                         ),
@@ -755,7 +755,7 @@ class _HomePageState extends State<HomePage> {
               vertical: 4,
             ),
             decoration: BoxDecoration(
-              color: MyApp.surfaceColor,
+              color: SIconMaster.surfaceColor,
               borderRadius: BorderRadius.circular(12),
             ),
             child: CheckboxListTile(
@@ -767,11 +767,11 @@ class _HomePageState extends State<HomePage> {
               },
               contentPadding: EdgeInsets.zero,
               controlAffinity: ListTileControlAffinity.leading,
-              activeColor: MyApp.accentColor,
+              activeColor: SIconMaster.accentColor,
               title: const Text(
                 'Hide icon file after applying',
                 style: TextStyle(
-                  color: MyApp.primaryTextColor,
+                  color: SIconMaster.primaryTextColor,
                 ),
               ),
             ),
@@ -808,14 +808,14 @@ class _HomePageState extends State<HomePage> {
           key: const ValueKey('select-view'),
           width: double.infinity,
           height: double.infinity,
-          color: MyApp.backgroundColor,
+          color: SIconMaster.backgroundColor,
           child: _buildDirectorySelectionView(),
         )
         : Container(
           key: const ValueKey('results-view'),
           width: double.infinity,
           height: double.infinity,
-          color: MyApp.backgroundColor,
+          color: SIconMaster.backgroundColor,
           child: _buildDetectedDirectoriesView(),
         ),
       ),
