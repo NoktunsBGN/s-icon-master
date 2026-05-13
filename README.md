@@ -1,5 +1,5 @@
 # S Icon Master - A tool for applying folder icons in Windows across multiple directories
-![Alt Text](https://i.imgur.com/C5Yedba.png)
+![Alt Text](https://i.imgur.com/lbqc362.png)
 <br>
 <b>Version 2.0 now released! Re-written and more sleek and modern than ever!</b>
 <br>
